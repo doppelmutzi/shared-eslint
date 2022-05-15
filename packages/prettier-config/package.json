@@ -1,0 +1,21 @@
+{
+    "name": "@doppelmutzi/prettier-config",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Sebastian Weber",
+    "description": "shared Prettier config",
+    "main": "./prettier-config.json",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/doppelmutzi/shared-eslint"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "publish-manual": "npm publish"
+    },
+    "peerDependencies": {
+        "prettier": "2.5.1"
+    }
+}

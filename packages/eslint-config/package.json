@@ -1,0 +1,31 @@
+{
+    "name": "@doppelmutzi/eslint-config-react",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Sebastian Weber",
+    "description": "shared ESLint config for React projects",
+    "main": "./eslint-config.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/doppelmutzi/shared-eslint"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "publish-manual": "npm publish"
+    },
+    "peerDependencies": {
+        "@babel/eslint-parser": "7.16.5",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-config-standard": "16.0.3",
+        "eslint-import-resolver-node": "0.3.6",
+        "eslint-plugin-import": "2.25.3",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-prettier": "4.0.0",
+        "eslint-plugin-promise": "6.0.0",
+        "eslint-plugin-react": "7.28.0",
+        "eslint-plugin-react-hooks": "4.3.0",
+        "prettier": "2.5.1"
+    }
+}

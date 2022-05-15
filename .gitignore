@@ -1,0 +1,10 @@
+package-lock.json
+node_modules
+
+.eslintcache
+
+.vscode
+
+.DS_Store
+*.log*
+*.debug*
