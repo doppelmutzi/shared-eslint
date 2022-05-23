@@ -1,6 +1,6 @@
 {
     "name": "@doppelmutzi/eslint-config-react",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": "Sebastian Weber",
     "description": "shared ESLint config for React projects",
