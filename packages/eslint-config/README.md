@@ -44,6 +44,6 @@ Create a `.eslintrc.js` file in project root with the following content:
 
 ```js
 module.exports = {
-  extends: ["@doppelmutzi/eslint-config"],
+  extends: ["@doppelmutzi/eslint-config-react"],
 };
 ```
