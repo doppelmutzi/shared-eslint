@@ -1,5 +1,5 @@
 {
-  "name": "Shared ESLint and Prettier config",
+  "description": "Shared ESLint and Prettier config",
   "version": "1.0.0",
   "packageManager": "npm@8.3.1",
   "workspaces": [
