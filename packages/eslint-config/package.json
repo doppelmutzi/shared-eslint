@@ -1,6 +1,6 @@
 {
   "name": "@doppelmutzi/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "license": "MIT",
   "author": "Sebastian Weber",
   "description": "shared ESLint config for React projects",
@@ -16,17 +16,52 @@
     "publish-manual": "npm publish"
   },
   "peerDependencies": {
-    "@babel/eslint-parser": "7.16.5",
-    "eslint": "8.5.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-import-resolver-node": "0.3.6",
-    "eslint-plugin-import": "2.25.3",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-promise": "6.0.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0",
-    "prettier": "2.5.1"
+    "@babel/eslint-parser": "7.x",
+    "eslint": "8.x",
+    "eslint-config-prettier": "8.x",
+    "eslint-config-standard": "16.x",
+    "eslint-import-resolver-node": "0.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-node": "11.x",
+    "eslint-plugin-prettier": "4.x",
+    "eslint-plugin-promise": "6.x",
+    "eslint-plugin-react": "7.x0",
+    "eslint-plugin-react-hooks": "4.x",
+    "prettier": "2.x"
+  },
+  "peerDependenciesMeta": {
+    "@babel/eslint-parser": {
+      "optional": false
+    },
+    "eslint": {
+      "optional": false
+    },
+    "eslint-config-prettier": {
+      "optional": false
+    },
+    "eslint-config-standard": {
+      "optional": false
+    },
+    "eslint-import-resolver-node": {
+      "optional": false
+    },
+    "eslint-plugin-import": {
+      "optional": false
+    },
+    "eslint-plugin-node": {
+      "optional": false
+    },
+    "eslint-plugin-prettier": {
+      "optional": false
+    },
+    "eslint-plugin-promise": {
+      "optional": false
+    },
+    "eslint-plugin-react": {
+      "optional": false
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": false
+    }
   }
 }
